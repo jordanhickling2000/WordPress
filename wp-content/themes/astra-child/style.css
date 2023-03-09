@@ -1,0 +1,63 @@
+/*
+Theme Name: Astra Child Template
+Theme URI: http://localhost/wordpress/
+Description: This is a child theme of Astra
+Author: Jordan Hickling
+Author URI: http://jordanhickling.com
+Template: Astra
+Version: 0.1
+*/
+
+.rl-gallery-item {
+	border: 3px solid black;
+}
+
+@media (max-width: 700px) {
+	.home-page-banner {
+		padding: 12%
+	} 
+}
+
+@media (max-width: 921px) {
+	#main {
+		padding: 40px;
+	} 
+}
+
+#wpforms-89-field_2-container {
+	width: 60%;
+}
+
+.wp-block-group.wp-container-1  {
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	padding: 0;
+}
+
+.wp-block-group.wp-container-2 {
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	padding: 0;
+}
+
+.wp-block-group.wp-container-2 wp-block-image {
+	height: 100%;
+}
+
+.wp-block-group.wp-container-2 p {
+	margin-left: 10px;
+}
+
+.wp-block-group.wp-container-1 wp-block-image {
+	height: 100%;
+}
+
+.has-medium-font-size {
+	color: black;
+}
+
+.site-content {
+	background: linear-gradient(109.6deg, rgb(78, 62, 255) 11.2%, rgb(164, 69, 255) 91.1%);
+}
+
+.site-primary-header-wrap {
+	background: var(--ast-global-color-2);
+}
