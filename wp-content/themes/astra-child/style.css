@@ -61,3 +61,56 @@ Version: 0.1
 .site-primary-header-wrap {
 	background: var(--ast-global-color-2);
 }
+
+
+.ast-separate-container .ast-article-post {
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+}
+
+.ast-primary-header-bar {
+	background: var(--ast-global-color-2);
+}
+
+body.archive .ast-archive-description {
+	background: var(--ast-global-color-2);
+}
+
+.ast-archive-title {
+	color: white;	
+}
+
+.wp-block-group.wp-container-1 {
+		text-align: center
+	} 
+
+.wp-block-group.wp-container-2 p {
+		text-align: center
+	} 
+
+
+@media (max-width: 882px) {
+	.wp-block-group.wp-container-1 {
+		flex-wrap: wrap !important;
+		padding: 10px;
+	} 
+	.wp-block-group.wp-container-2 {
+		flex-wrap: wrap !important;
+		border-top: 2px solid white;
+		padding: 10px;
+	}
+	.wp-block-group.wp-container-2 p {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 678px) {
+	#main {
+    padding: 10px;
+	}
+}
+
+@media (max-width: 400px) {
+	#main {
+		padding: 0;
+	}
+}
